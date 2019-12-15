@@ -15,8 +15,12 @@ a {
 	clear: both;
 }
 
+header, nav, h2, .main-visual, footer {
+	font-family:  Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header {
-	position:  relative;
+	position: relative;
 	width: 90%;
 	padding: 15px 0;
 	margin: 0 auto;
@@ -25,6 +29,12 @@ header {
 
 header .headline {
 	font-size: 32px;
+}
+
+.social {
+	position: absolute;
+	top: 22px;
+	right: 22px;
 }
 
 .social i {
@@ -146,7 +156,7 @@ main {
 }
 
 .sidebar-headline,.instagram-headline,.categories-headline {
-	brder-bottom: 8px solid #f7f7f7;
+	border-bottom: 8px solid #f7f7f7;
 	text-align: center;
 	line-height: 0.6;
 }
@@ -157,7 +167,7 @@ main {
 
 .popular-text,.categories-text {
 	padding-bottom: 5px;
-	border-bottom: 1px solid #F7f7f7;
+	border-bottom: 1px solid #f7f7f7;
 	margin-bottom: 5px;
 }
 
