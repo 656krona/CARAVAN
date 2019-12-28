@@ -225,24 +225,56 @@ footer {
 	color: #fff;
 }
 
-.social i {
-	color: black;
-}
-
-@media screen and (max-width:1024px) {
-	.social i {
-		color: green;
-	}
-}
-
-@media screen and (max-width:768px) {
-	.social i {
-		color: red;
-	}
-}
-
 @media screen and (max-width:425px) {
-	.social i {
-		color: blue;
+	.social i , .category {
+		display: none;
 	}
+
+	.nav-list-item {
+		display: block;
+		margin: 5px 0;
+	}
+
+	.main-visual-content, main, .blog, .sidebar {
+		width: 100%;
+	}
+
+	.blog-image {
+		width: 180px;
+		height: 180px;
+		margin-left: 10px;
+	}
+
+	.blog-text {
+		padding: 50px 0 0 20px;
+	}
+
+	.sidebar {
+		float: none;
+	}
+
+	.sidebar-contents {
+		width: 100%;
+		padding: 30px 0;
+	}
+
+	.popular-text,.categories-text,.popular-text:last-child,.categories-text:last-child {
+		padding-left: 5px;
+	}
+
+ 	.instagram-box {
+ 		width: 200px;
+		height: 200px;
+		margin: 10px 5px;
+ 		display: inline-block;
+ 	}
+
+	.instagram-box:nth-child(odd) {
+		margin: 10px 5px;
+	}
+
+	.instagram-box:nth-child(even) {
+		margin: 10px 5px;
+	}
+
 }
